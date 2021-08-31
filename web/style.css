@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: rgb(166, 236, 233);
+    
+}
+
+.container {    
+    background: #fff;
+    border: 1px  rgb(156, 156, 160);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;   
+    
+}
+
+.container input {
+    border:1px solid rgb(185, 183, 183);
+}
+
+.title-span{
+    background:rgb(221, 241, 241);
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;    
+}
+
+.label-span{
+    margin-top: 10px;
+
+}
+
+#btnEntrar {
+   margin: 20px 0 0;
+   background: rgb(3, 49, 150);
+   color: #fff;
+   font-weight: bolder;
+   cursor:pointer; 
+   border: none;
+   transition: background 0.2s;
+   padding: 5px;
+
+}
+
+#btnEntrar:hover{
+    background: rgb(221, 210, 210);
+}
